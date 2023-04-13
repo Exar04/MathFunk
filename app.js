@@ -21,6 +21,10 @@ app.get('/QuadraticEquations', (req, res) => {
     res.render('QuadraticEquations')
 })
 
+app.get('/NLPP', (req, res) => {
+    res.render('NLPP')
+})
+
 app.use((req, res) => {
     res.status(404).render('404')
 })
